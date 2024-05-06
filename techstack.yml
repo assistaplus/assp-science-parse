@@ -1,0 +1,102 @@
+repo_name: assistaplus/assp-science-parse
+report_id: 3d1599b14bf8d3c1374cf538a5ffb288
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:40:13+00:00'
+requested_by: bbstilson
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/assistaplus/assp-science-parse
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/assistaplus/assp-science-parse
+  detection_source: Repo Metadata
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source_url: https://github.com/assistaplus/assp-science-parse
+  detection_source: Repo Metadata
+- name: Jackson
+  description: A suite of data-processing tools for Java
+  website_url: https://github.com/FasterXML/jackson
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://ucarecdn.com/d8ec839d-4d66-4c08-8297-9e2be82f6b75/
+  detection_source_url: https://github.com/assistaplus/assp-science-parse/blob/master/cli/build.sbt
+  detection_source: cli/build.sbt
+  last_updated_by: Russell Reas
+  last_updated_on: 2019-09-17 00:20:15.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-science-parse/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Russell Reas
+  last_updated_on: 2019-09-16 23:25:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/assp-science-parse
+  detection_source: Repo Metadata
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-science-parse/blob/master/core/src/test/resources/logback-test.xml
+  detection_source: core/src/test/resources/logback-test.xml
+  last_updated_by: Dirk Groeneveld
+  last_updated_on: 2016-04-07 01:05:52.000000000 Z
+- name: ScalaTest
+  description: A testing tool in the Scala ecosystem
+  website_url: http://www.scalatest.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4371/frame_apngframe0.png
+  detection_source_url: https://github.com/assistaplus/assp-science-parse/blob/master/core/build.sbt
+  detection_source: core/build.sbt
+  last_updated_by: Russell Reas
+  last_updated_on: 2019-09-17 00:20:15.000000000 Z
